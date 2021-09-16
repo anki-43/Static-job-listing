@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color:#5da5a4;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img{
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80wh;
+
+}
+
+body{
+   background-color: #cde2e4;
+}
+
+.ad{
+    display: flex;
+    justify-content: flex-start;
+    width: 80wh;
+    flex: 1 3 8;
+    margin: 2.5vh 30vh 2.5vh 30vh ;
+    background-color: white;
+    /* border: 1px black;
+    box-shadow: 5px 5px rgb(196, 22, 22) blur; */
+}
+
+.company-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6vh;
+    margin: 4vh;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.1vh;
+}
+
+.details{
+    display: flex;
+    color: #06060659;
+}
+
+.features{
+    display: flex;
+}
+
+.features > *{
+    margin: 0.8vh;
+    margin-left: 0;
+}
+
+.company-name{
+    color: #75b1b1;
+}
+
+.feature-type1{
+    color: #def0f0;
+    background-color: #5da5a4;
+    border-radius: 50%;
+    font-size: 75%;
+    padding: 1vh;
+}
+
+.feature-type2{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 75%;
+    padding: 1vh;
+}
+
+.job-name{
+    font-size: 1.5rem;
+}
+
+.details > *{
+    margin: 3vh;
+    margin-left: 0;
+}
+
+.requirements{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.skills{
+    width: 100%;
+    height: 100%;
+    background-color: #def0f0;
+    color: #87acae;
+    margin: 0.8vh;
+    padding: 0.8vh;
+    align-self: center;
+    font-weight: 200;
+}
+
